@@ -29,21 +29,21 @@ export default function hero() {
           <div className='hero-premium'>
               <CountUp className='countUp'  start={500} end={1000} duration={4} />
             <span>
-              <span> +</span>
+              <span style={{color :"orange"}}> +</span>
               <p>Premium Products</p>
             </span>
           </div>
           <div className='hero-premium'>
               <CountUp className='countUp' start={1000} end={2000} duration={4} />
             <span>
-              <span> +</span>
+              <span style={{color :"orange"}}> +</span>
               <p>Happy Customers</p>
             </span>
           </div>
           <div className='hero-premium'>
               <CountUp className='countUp' start={30} end={50} duration={4} />
             <span>
-              <span> +</span>
+              <span style={{color :"orange"}}> +</span>
               <p>Award Winning</p>
             </span>
           </div>
