@@ -1,14 +1,14 @@
 import React from 'react'
-import {HiLocationMarker} from "react-icons/hi"
+import {HiLocationMarker} from "react-icons/hi"   //location nte icon ne vendi 
 import "./hero.css"
-import CountUp from 'react-countup'
+import CountUp from 'react-countup'    // hero sction ile counter ine vendi ulla library 
 export default function hero() {
   return <section className='hero-wrapper'>
     <div className='paddings innerWidth hero-container'> 
       <div className='hero-grid'>
         <div className='hero-left'>
           <div className='hero-title'>
-            <div className='orange-circle'/>
+            <div className='orange-circle'/>   {/* h1 inte aduth ulla orange round ine vendi */}
             <h1><span>Discover</span><span>Most Suitable</span><span>Propery</span></h1>
           </div>
           <div className='flexColStart hero-description'>
@@ -27,7 +27,7 @@ export default function hero() {
         </div>
         <div className='hero-stat'>
           <div className='hero-premium'>
-              <CountUp className='countUp'  start={500} end={1000} duration={4} />
+              <CountUp className='countUp'  start={500} end={1000} duration={4} />  {/*  counter start - from where to start , duration defines the duration to reach from start to end */}
             <span>
               <span style={{color :"orange"}}> +</span>
               <p>Premium Products</p>

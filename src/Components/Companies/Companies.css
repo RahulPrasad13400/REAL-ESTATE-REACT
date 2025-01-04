@@ -1,0 +1,10 @@
+.section__companies{
+    background-color: #fff;
+}
+.companies__container{
+    display: flex;
+    gap: 5rem;
+}
+.companies__container img{
+    width: 7rem;
+}
