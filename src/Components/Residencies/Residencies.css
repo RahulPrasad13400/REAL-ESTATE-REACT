@@ -35,3 +35,17 @@
 .swiper-horizontal{
     overflow: visible;
 }
+.r-button{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    display: flex;
+    gap: 1rem;
+}
+.r-button button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    border: none;
+}

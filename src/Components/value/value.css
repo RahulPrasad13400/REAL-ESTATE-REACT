@@ -1,0 +1,75 @@
+.value{
+    width: 94rem;
+}
+.value__container{
+    padding: 10rem 0;
+    width: 80rem;
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+.value__image{
+    width: 80%;
+}
+.value__image img{
+    width: 70%;
+    border-radius: 100% 100% 0 0; 
+    float: right;   
+}
+.value__text__heading{
+    padding: 0 3rem;
+    text-align: left;
+}
+.value__box__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.value__box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+}
+.value__box__item{
+    background-color: aliceblue;
+}
+.value__box__heading{
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0 0 0;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.value__text__description{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.item_heading{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.item_details{
+    font-size: 0.7rem;
+}
+.item_description{
+    padding: 1rem;
+}
+.accordion_button{
+    background-color: aliceblue;
+    border: none;
+    font-size: 1rem;
+    color: var(--blue);
+}
+.ac_icon{
+    font-size: 2rem;
+    fill: var(--blue);
+}
+.ac_head{
+    width: 70%;
+}
