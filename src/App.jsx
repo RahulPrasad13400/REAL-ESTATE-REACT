@@ -5,6 +5,8 @@ import Companies from "./Components/Companies/Companies";
 import Residencies from "./Components/Residencies/Residencies";
 import Value from "./Components/value/value";
 import Contact from "./Components/Contact/Contact";
+import GetStarted from "./Components/GetStarted/GetStarted";
+
 function App() {
   return <div className="app">
     <div className="app__container">
@@ -16,6 +18,7 @@ function App() {
       <Residencies />
       <Value />
       <Contact />
+      <GetStarted />
   </div>
 }
 
