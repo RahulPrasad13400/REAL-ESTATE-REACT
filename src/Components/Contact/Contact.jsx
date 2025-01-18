@@ -19,7 +19,7 @@ export default function Contact() {
                         <div className='contact_box_1'>
                             <div className='row'>
                                 <div className='icon'>
-                                    <MdCall style={{color : "blue"}} size={25} />
+                                    <MdCall style={{color : "#00308F"}} size={25} />
                                 </div>
                                 <div className='details'>
                                     <p className='call'>Call</p>
@@ -33,7 +33,7 @@ export default function Contact() {
                         <div className='contact_box_1'>
                         <div className='row'>
                                 <div className='icon'>
-                                    <BsFillChatDotsFill style={{color : "blue"}} size={25} />
+                                    <BsFillChatDotsFill style={{color : "#00308F"}} size={25} />
                                 </div>
                                 <div className='details'>
                                     <p className='call'>chat</p>
@@ -47,7 +47,7 @@ export default function Contact() {
                         <div className='contact_box_1'>
                         <div className='row'>
                                 <div className='icon'>
-                                    <MdCall style={{color : "blue"}} size={25} />
+                                    <MdCall style={{color : "#00308F"}} size={25} />
                                 </div>
                                 <div className='details'>
                                     <p className='call'>video call</p>
@@ -61,7 +61,7 @@ export default function Contact() {
                         <div className='contact_box_1'>
                         <div className='row'>
                                 <div className='icon'>
-                                    <MdCall  style={{color : "blue"}} size={25} />
+                                    <MdCall  style={{color : "#00308F"}} size={25} />
                                 </div>
                                 <div className='details'>
                                     <p className='call'>Message</p>

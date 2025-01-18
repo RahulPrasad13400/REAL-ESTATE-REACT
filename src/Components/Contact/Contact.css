@@ -64,14 +64,15 @@
     width: 60%;
     background-color: var(--lightBlue);
     border: none;
-    color: blue;
+    color: #002D62;
     font-weight: 600;
     transition: all 0.3s;
+    border-radius: 5px;
 }
 .callNowButton button:hover{
-    background-color: blue;
+    background-color: #00538C;
     color: white;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 .icon{
     background-color: var(--lightBlue);
