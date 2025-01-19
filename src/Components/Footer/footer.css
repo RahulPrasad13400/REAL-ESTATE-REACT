@@ -1,0 +1,36 @@
+.footer__section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer__section-container{
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+}
+.footer__section-companyPara{
+    margin-top: 1rem;
+    width: 40%;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+.footer__section-circle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: orange;
+    z-index: -1;
+    position: absolute;
+    top: 10%;
+    left: 18%;
+}
+.footer__section-t{
+    position: relative;
+}
+.footer__section ul{
+    margin-top: 1 rem;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-size: 0.8rem;
+}

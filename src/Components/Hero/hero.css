@@ -1,6 +1,6 @@
 .hero-wrapper{
     width: 100%;
-    height: 75vh;
+    /* height: 75vh; */
     text-align: center;
     align-items: center;
     /* background-color: var(--black); */
@@ -103,4 +103,17 @@
 }
 .countUp{
     font-size: 1.7rem;
+}
+
+
+@media (max-width : 75em){
+    .hero-image{
+        width: 80%;
+    }
+}
+
+@media (max-width: 71.875em){
+    html{
+        font-size : 12px;
+    }
 }

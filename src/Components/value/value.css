@@ -1,9 +1,8 @@
 .value{
-    width: 94rem;
+    width: 100%;
 }
 .value__container{
     padding: 10rem 0;
-    width: 80rem;
     margin: 0 auto;
     display: grid;
     text-align: center;
