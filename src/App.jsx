@@ -7,6 +7,7 @@ import Value from "./Components/value/value";
 import Contact from "./Components/Contact/Contact";
 import GetStarted from "./Components/GetStarted/GetStarted";
 import Footer from "./Components/Footer/footer";
+import { useState } from "react";
 
 function App() {
   return <div className="app">

@@ -31,7 +31,22 @@
         display : block;
     }
     .header-menu{
+        z-index: 999;
+        color: black;
         display: none;
+        position: absolute;
+        top: 5%;
+        right: 18%;
+        background: white;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 3rem;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;    
+    }
+    .show{
+        display: flex;
+
     }
 }
 

@@ -38,5 +38,10 @@
     cursor: pointer;
 }
 
+@media(max-width : 57em) {
+    .getStarted__box button{
+    width: 20%;
+} 
+}
 
 
